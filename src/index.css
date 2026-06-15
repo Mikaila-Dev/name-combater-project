@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "popins";
+    background-color: #0c0c0c;
+    color: #dadada;
+    
+}
+.main-section {
+    max-width: 340px;
+    min-height: 400px;
+    background: #ffffff11;
+    backdrop-filter: blur(10px);
+}
