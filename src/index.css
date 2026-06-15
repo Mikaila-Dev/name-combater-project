@@ -27,9 +27,10 @@ body {
     padding: 10px 10px;
     border-radius: 5px;
     border: rgba(255, 255, 255, 0);
-    background: #ffffff;
+    background: #e2e2e2;
     color: #1b1b1b;
     border: 1px solid white;
+    font-weight: bold;
 }
 .heading-section input:focus {
     outline: none;
