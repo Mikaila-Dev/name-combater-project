@@ -11,8 +11,34 @@ body {
 }
 .main-section {
     max-width: 340px;
-    min-height: 400px;
+    min-height: 600px;
     background: #ffffff11;
     backdrop-filter: blur(10px);
     margin: 0 auto;
+}
+.heading-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 3px;
+}
+.heading-section input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: rgba(255, 255, 255, 0);
+    background: #ffffff;
+    color: #1b1b1b;
+    border: 1px solid white;
+}
+.heading-section input:focus {
+    outline: none;
+    border: 1px solid #818181;
+}
+.heading-section button {
+    padding: 10px 30px;
+    border: none;
+    color: #1b1b1b;
+    font-weight: bold;
+    border-radius: 5px;
 }
